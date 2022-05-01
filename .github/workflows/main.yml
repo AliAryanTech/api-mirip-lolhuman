@@ -18,3 +18,7 @@ jobs:
           docker_heroku_process_type: worker
           stack: "container"
           region: "eu"
+          procfile: web:node index.js
+
+
+
